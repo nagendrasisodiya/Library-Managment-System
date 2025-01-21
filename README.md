@@ -17,4 +17,5 @@ Spring Security for keeping things safe
 JWT tokens for logging in (fancy, right?)
 Some database magic with JPA/Hibernate
 CORS setup ready to play nice with your frontend
-![Uploading image.png…]()
+
+![image](https://github.com/user-attachments/assets/a5faacfb-b855-4bc8-b028-c30038112c01)
