@@ -1,0 +1,48 @@
+
+/* General styles for the app layout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 250px; /* Width of the sidebar */
+  background-color: whitesmoke;
+  color: white;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Main content area styles */
+.main-content {
+  flex: 1; /* Take up remaining space */
+  padding: 20px;
+  background-color: #ffffff;
+  overflow-y: auto; /* Scroll if content overflows */
+}
+
+/* Profile component styles */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.profile-info {
+  margin-top: 20px;
+}
+
+.info-item {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+strong {
+  color: #555;
+}

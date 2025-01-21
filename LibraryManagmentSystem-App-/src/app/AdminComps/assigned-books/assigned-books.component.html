@@ -1,0 +1,25 @@
+<div class="books-List">
+  <h1>Book List</h1>
+  <table>
+    <thead>
+    <tr>
+      <th>User Id</th>
+      <th>User Name</th>
+      <th>Book Serial No</th>
+      <th>Book Name</th>
+      <th>Book Category</th>
+    </tr>
+    </thead>
+    <tbody>
+    <ng-container *ngFor="let user of users">
+      <tr *ngFor="let book of user.books">
+        <td>{{ user.id }}</td>
+        <td>{{ user.username }}</td>
+        <td>{{ book.sNo }}</td>
+        <td>{{ book.title }}</td>
+        <td>{{ book.category }}</td>
+      </tr>
+    </ng-container>
+    </tbody>
+  </table>
+</div>

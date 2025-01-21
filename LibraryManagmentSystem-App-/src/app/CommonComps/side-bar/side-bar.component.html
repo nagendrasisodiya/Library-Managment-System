@@ -1,0 +1,14 @@
+<div class="sidebar">
+  <div class="sidebar-header">
+    <h2>Library system</h2>
+  </div>
+  <ul class="sidebar-menu">
+    <li><a routerLink="/main/profile">Profile</a></li>
+    <li><a routerLink="/main/dashboard" *ngIf="isUser()">DashBoard</a></li>
+    <li><a routerLink="/main/books">Books</a></li>
+    <li><a routerLink="/main/users" *ngIf="isAdmin()">Users</a></li>
+    <li><a routerLink="/main/assignedBooks" *ngIf="isAdmin()">AssignedBooks</a></li>
+    <li><a routerLink="/main/addBooks" *ngIf="isAdmin()">AddBooks</a></li>
+    <li><a routerLink="/main/assign$Submit" *ngIf="isAdmin()" >LibraryServices</a></li>
+  </ul>
+</div>
